@@ -1,0 +1,35 @@
+/*!*******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/sass/header.scss ***!
+  \*******************************************************************************************************************************************/
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__counter {
+  font-size: 22px;
+}
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/sass/counter.scss ***!
+  \********************************************************************************************************************************************/
+.innerClick {
+  display: flex;
+  gap: 1vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.innerClick__plus-click {
+  padding: 0.5vw 1vw;
+  width: 10px;
+}
+.innerClick__reset-click {
+  padding: 0.5vw 1vw;
+}
+.innerClick__minus-click {
+  padding: 0.5vw 1vw;
+}
+.innerClick__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
